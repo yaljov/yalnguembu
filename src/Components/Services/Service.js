@@ -1,4 +1,4 @@
-import { Paper, Typography, Box, Grid } from '@mui/material'
+import { Typography, Box, Grid } from '@mui/material'
 import React from 'react'
 import Device from '@mui/icons-material/Devices';
 import Edit from '@mui/icons-material/Edit';

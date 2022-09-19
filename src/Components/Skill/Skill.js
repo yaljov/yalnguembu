@@ -1,9 +1,5 @@
 import React from 'react'
-import { Grid, IconButton, Tooltip, Typography, Box } from '@mui/material';
-import DesignServicesIcon from '@mui/icons-material/DesignServices';
-import CodeIcon from '@mui/icons-material/Code';
-import BarChartIcon from '@mui/icons-material/BarChart';
-import TimelineIcon from '@mui/icons-material/Timeline';
+import { Grid, Typography, Box } from '@mui/material';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimeLineOppositeContent from '@mui/lab/TimelineOppositeContent';
@@ -29,26 +25,7 @@ const Nav = () => {
         <Box className='nav' id='skill'>
             <span className="t1">Skills</span> <br />
             <span className="t2">Skills & Experiences</span>
-            {/* <Tooltip title='design' className='tooltip active'>
-                <IconButton>
-                    <DesignServicesIcon fontSize='small' className='link' />
-                </IconButton>
-            </Tooltip>
-            <Tooltip title='Design graphique' className='tooltip active'>
-                <IconButton>
-                    <CodeIcon fontSize='small' className='link' />
-                </IconButton>
-            </Tooltip>
-            <Tooltip title='Trading Forex' className='tooltip active'>
-                <IconButton>
-                    <TimelineIcon fontSize='small' className='link' />
-                </IconButton>
-            </Tooltip>
-            <Tooltip title='Analyse et coception SI' className='tooltip active'> 
-                <IconButton>
-                    <BarChartIcon fontSize='small' className='link' />
-                </IconButton>
-            </Tooltip>*/}
+           
         </Box>
     )
 }

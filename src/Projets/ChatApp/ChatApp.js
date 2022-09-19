@@ -73,8 +73,8 @@ function ChatApp() {
   ];
 
   const Discussion = ({ discussion }) => {
-    const { id, user, img, message } = discussion;
-    const { text, statut, date, sender } = message;
+    const { user, img, message } = discussion;
+    const { text, statut, date} = message;
 
     return (
       <Box
@@ -93,6 +93,7 @@ function ChatApp() {
               width:"70px"
           }}>
             <img
+            alt={user}
               src={img}
               style={{
                 borderRadius: "50%",

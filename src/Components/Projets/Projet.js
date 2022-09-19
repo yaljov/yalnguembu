@@ -6,10 +6,6 @@ import {
   CardMedia,
 } from "@mui/material";
 import React from "react";
-import { IconButton, Tooltip } from "@mui/material";
-import EyeIcon from "@mui/icons-material/RemoveRedEye";
-import Circle from "@mui/icons-material/Circle";
-
 const projets = [
   {
     id: 0,

@@ -1,25 +1,8 @@
-import { Grid, IconButton, Typography, Box } from "@mui/material";
-import Button from "@restart/ui/esm/Button";
-import React, { useState } from "react";
-import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { Grid, Typography, Box } from "@mui/material";
 import Image1 from "../../Assets/Images/moi u.png";
 
 export default function Header() {
-  const [text, setText] = useState("Devellopeur");
-  // const texts = ['developpeur', 'designer', 'tradeur forex', 'analyste des SI']
-
-  // const handeltext = () => {
-  //     texts.forEach(element => {
-  //         setTimeout(setText(element), 500);
-  //     });
-
-  //     handeltext()
-  // }
-  // useEffect(handeltext, [])
-
+ 
   return (
     <div>
       <Box className="main_hd">
