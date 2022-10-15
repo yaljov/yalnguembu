@@ -1,11 +1,11 @@
 import { Grid, Paper, Box } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 
 export default function About() {
-  const [play, setPlay] = useState(false);
-  const handelPlay = () => {
-    setPlay(!play);
-  };
+  // const [play, setPlay] = useState(false);
+  // const handelPlay = () => {
+  //   setPlay(!play);
+  // };
   return (
     <Box className="main_ab" id="about">
       <Grid container spacing={6}>

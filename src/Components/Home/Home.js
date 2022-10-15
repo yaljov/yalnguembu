@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Service from "../Services/Service";
 import About from "../About/About";
@@ -14,18 +14,10 @@ import "../../Assets/styles/Responsive.css";
 import TopArrowIcon from "@mui/icons-material/ArrowUpward";
 
 export default function Home() {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  useEffect(() => setScrollPosition(document.body.scrollTop));
+  
   const ScrollBtn = () => {
-    const scrollToTop = () => {
-      // alert(document.body)
-      document.body.scrollTop = 0;
-    };
     return (
-      <button
-        onClick={scrollToTop}
-        className={scrollPosition > 1000 ? "scrollBtn Show" : "scrollBtn"}
-      >
+      <button className="scrollBtn Show">
         <TopArrowIcon htmlColor="#f1f1f1" />
       </button>
     );

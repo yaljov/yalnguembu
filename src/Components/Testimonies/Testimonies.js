@@ -87,7 +87,6 @@ const Slider = () => {
                 <IconButton
                   className={activeSlide === 3 ? "btn" : "btn b_2"}
                   onClick={handelNext}
-                  // disabled={activeSlide === 2}
                 >
                   <ArrowForwardIosIcon />
                 </IconButton>
