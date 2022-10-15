@@ -11,16 +11,16 @@ import { Grid } from '@mui/material';
 export default function Footer() {
     return (
         <div className='Footer' >
-            <Grid container>
+            <Grid container direction="row-reverse">
                 <Grid item xs={12} md={6} >
-                    <a href='/skill' className='a left'><CopyrightIcon fontSize='small' className='icon' /> YALNGUEMBU 2022 - powerd by YALNGUEMBU</a>
+                    <a href='https://m.facebook.com' target="_blank" rel="noreferrer" className='icon'><FacebookRoundedIcon /></a>
+                    <a href='https://www.instagram.com' target="_blank" rel="noreferrer" className='icon'><InstagramIcon /></a>
+                    <a href='https://www.twitter.com' target="_blank" rel="noreferrer" className='icon'><TwitterIcon /></a>
+                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='icon'><Telegram /></a>
+                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='icon'><LinkedIn /></a>
                 </Grid>
                 <Grid item xs={12} md={6} >
-                    <a href='https://m.facebook.com' target="_blank" rel="noreferrer" className='a'><FacebookRoundedIcon fontSize='large' /></a>
-                    <a href='https://www.instagram.com' target="_blank" rel="noreferrer" className='a'><InstagramIcon fontSize='large' /></a>
-                    <a href='https://www.twitter.com' target="_blank" rel="noreferrer" className='a'><TwitterIcon fontSize='large' /></a>
-                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='a'><Telegram fontSize='large' /></a>
-                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='a'><LinkedIn fontSize='large' /></a>
+                    <a href='/skill' className='a left'><CopyrightIcon fontSize='small' className='icon' /> YALNGUEMBU 2022 - powerd by YALNGUEMBU</a>
                 </Grid>
             </Grid>
 

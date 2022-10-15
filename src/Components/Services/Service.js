@@ -15,14 +15,14 @@ export default function Service() {
                         <Typography className='t1'>Services</Typography>
                         <Typography className='t2'>En quoi puis-je aider?</Typography>
                     </Box>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, fuga? Quia nisi doloremque totam tempore! Voluptatum iusto dolorum sunt ratione! Commodi sit nobis sunt laborum neque quisquam, nam repudiandae iure.</p>
+                    <p className='description_service'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, fuga? Quia nisi doloremque totam tempore! Voluptatum iusto dolorum sunt ratione! Commodi sit nobis sunt laborum neque quisquam, nam repudiandae iure.</p>
                     <Grid container>
                         <Grid item xs={6}>
-                            <h1 className='m-0'>215+</h1>
+                            <h1 className='m-0 text-stats'>215+</h1>
                             <p className='m-0'>Projets realisés</p>
                         </Grid>
                         <Grid item xs={6}>
-                            <h1 className='m-0'>87+</h1>
+                            <h1 className='m-0 text-stats'>87+</h1>
                             <p className='m-0'>clients satisfait</p>
                         </Grid>
                     </Grid>

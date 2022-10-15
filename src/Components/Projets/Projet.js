@@ -1,10 +1,4 @@
-import {
-  Box,
-  Grid,
-  Card,
-  CardContent,
-  CardMedia,
-} from "@mui/material";
+import { Box, Grid, CardMedia, Paper } from "@mui/material";
 import React from "react";
 const projets = [
   {
@@ -51,25 +45,24 @@ const projets = [
   },
 ];
 
-const Item = ({ img, name, url ,cat}) => {
+const Item = ({ img, name, url }) => {
   return (
     <Grid item xs={12} sm={6} lg={4}>
-      <Card
-        className="hovercard"
-      >
+      <Paper variant="outlined" square className="media_container">
         <a href={url} className="link">
           <CardMedia
-            image={img}
-            // width={10}
+            image={require("../../Assets/Images/illustration logo.png")}
             alt={name}
             component="img"
           />
+          <video
+            src={require("../../Assets/videos/about_me.mp4")}
+            className="video"
+            alt={name}
+            autoPlay
+          ></video>
         </a>
-        <CardContent className="">
-            <p className="cat">{cat}</p>
-            <h1 className="name">{name}</h1>
-        </CardContent>
-      </Card>
+      </Paper>
     </Grid>
   );
 };
@@ -87,7 +80,7 @@ export default function Projet() {
   return (
     <div className="projets">
       <Nav />
-      <Grid container spacing={5}>
+      <Grid container>
         {projets.map((projet) => (
           <Item
             key={projet.id}

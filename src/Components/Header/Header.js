@@ -1,5 +1,5 @@
 import { Grid, Typography, Box } from "@mui/material";
-import Image1 from "../../Assets/Images/moi u.png";
+import Image1 from "../../Assets/Images/illust_yal.png";
 
 export default function Header() {
  
@@ -20,16 +20,16 @@ export default function Header() {
           </Grid>
           <Grid item xs={12} md={6} lg={6}>
             <Box className="box_txt">
-              <Typography className="h1">
-                Salut je suis <br /> Yal Nguembu
-              </Typography>
-              <p className="signature">Developpeur, Designer graphique</p>
+              <Typography className="text1">Salut, je suis</Typography>
+              <Typography className="h1">Nguembu Yal </Typography>
+              <Typography className="h2">Developpeur  d'Application</Typography>
+              <p className="text_descriptif">J'allie savoir faire et experience pour a chaque fois penser, <br/> concevoir et realiser des applications intuitive,  <br/> sous diverse plateforme que soit<br/>web resposive ou alors <span className="yellow-text"> Android et IOS</span> </p>
               <br/>
               <Box className="box_btn">
-                <a href="#contact" className="btn">
+                <a href="#contact" className="btn btn1">
                   Contactez moi
                 </a>
-                <a href="#contact" className="btn2">
+                <a href="#contact" className="btn btn2">
                   Telecharger CV
                 </a>
               </Box>

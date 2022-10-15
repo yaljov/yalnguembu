@@ -4,6 +4,10 @@
         position: fixed;
         top: 0;
     }
+    .NavBar > li {
+        display:none;
+    }
+    
     .NavBar.resp{
         width: 70%;
         height: 100%;
@@ -19,11 +23,17 @@
         display: block;
         float: none;
     }
-    .NavBar.resp img{
-        src: url('../Images/1616319502695_.jpg');
-
-
-    }
+    
+    .NavBar.resp .logo{
+        width: 100%;
+        margin-bottom: 2rem;
+   }
+    .NavBar.resp .socials-medias-icons {
+        width: 100%;
+   }
+   .NavBar.resp .socials-medias-icons a{
+        display: inline-block;
+   }
     .NavBar.resp li{
         width: 100%;
         display: block;

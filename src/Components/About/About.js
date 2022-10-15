@@ -1,18 +1,25 @@
 import { Grid, Paper, Box } from "@mui/material";
-import React from "react";
-import img1 from "../../Assets/Images/image 2-100.jpg";
+import React, { useState } from "react";
 
 export default function About() {
+  const [play, setPlay] = useState(false);
+  const handelPlay = () => {
+    setPlay(!play);
+  };
   return (
     <Box className="main_ab" id="about">
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
-          <picture>
-            <img src={img1} alt="" className="img" />
+          <picture className="img">
+            <video
+              src={require("../../Assets/videos/about_me.mp4")}
+              autoPlay
+              controls
+            ></video>
           </picture>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Paper variant="">
+          <Paper variant="" className="text_box">
             <Box className="txt_box">
               <span className="t1">About me</span>
               <br />
@@ -20,13 +27,14 @@ export default function About() {
                 Meilleurs consultation
                 <br /> experience de qualite
               </span>
-              <p>
+              <p className="texte_descriptif">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptate laboriosam doloribus in illo quia architecto
                 praesentium tempora accusamus hic repellendus eveniet facere rem
                 voluptates dolorem neque, inventore illum nostrum vel.
+                voluptates dolorem neque, inventore illum nostrum vel.
               </p>
-              <a href="/" className="btn2">
+              <a href="/" className="btn btn2">
                 donwload my cv
               </a>
             </Box>
