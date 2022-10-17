@@ -4,7 +4,7 @@ import Image1 from "../../Assets/Images/illust_yal.png";
 export default function Header() {
  
   return (
-    <div>
+    <div id="header">
       <Box className="main_hd">
         <Grid container direction="row-reverse">
           <Grid item xs={12} md={6} lg={6}>
@@ -29,7 +29,7 @@ export default function Header() {
                 <a href="#contact" className="btn btn1">
                   Contactez moi
                 </a>
-                <a href="#contact" className="btn btn2">
+                <a href="./pdf/CV-NGUEMBU_FOTSO_Yal_Jovane.pdf" className="btn btn2" download>
                   Telecharger CV
                 </a>
               </Box>

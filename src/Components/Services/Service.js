@@ -52,7 +52,7 @@ export default function Service() {
                                 <CodeIcon className='icon' fontSize='medium' />
                             </Box>
                             <Box className='box_3'>
-                                <Typography className='txt'>Developpement d'Application</Typography>
+                                <Typography className='txt'>Developpement</Typography>
                                 <Typography className='txt2'>12 projets</Typography>
                             </Box>
                         </Box>

@@ -8,7 +8,14 @@ import img from '../../Assets/Images/contact.png'
 export default function Contact() {
     return (
         <div className='contact' id='contact'>
-            <Grid container>
+            <Grid container direction="row-reverse">
+                <Grid item xs={12} md={6} lg={6}>
+                    <Box className='box'>
+                        <span className="t1">Contact</span><br />
+                        <span className="t2">Laisser nous un commentaire <br /> tous les avis comptent</span>
+                    </Box>
+                    <img src={img} alt="" className="img" />
+                </Grid>
                 <Grid item xs={12} md={6} lg={6}>
                     <TextField
                         label='Nom'
@@ -45,14 +52,6 @@ export default function Contact() {
                         rows={5}
                     />
                     <Button size='small' fullWidth className='btn'>Envoyer</Button>
-                </Grid>
-                <Grid item xs={12} md={6} lg={6}>
-                    <Box className='box'>
-                        <span className="t1">Contact</span><br />
-                        <span className="t2">Laisser nous un commentaire <br /> tous les avis comptent</span>
-                    </Box>
-                    <img src={img} alt="" className="img" />
-
                 </Grid>
             </Grid>
         </div>

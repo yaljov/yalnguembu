@@ -25,7 +25,7 @@ const Nav = () => {
 };
 const Item = ({ name, image }) => {
   return (
-    <Grid item xs={4} sm={3} md={4}>
+    <Grid item xs={12} sm={3} md={4}>
       <Box className="item">
         <img src={image} alt={image} style={{ width: "70%", height: "70%" }} />
         <p>{name}</p>

@@ -20,7 +20,7 @@ export default function Footer() {
                     <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='icon'><LinkedIn /></a>
                 </Grid>
                 <Grid item xs={12} md={6} >
-                    <a href='/skill' className='a left'><CopyrightIcon fontSize='small' className='icon' /> YALNGUEMBU 2022 - powerd by YALNGUEMBU</a>
+                    <a href='/' className='a left'><CopyrightIcon fontSize='small' className='icon' /> YALNGUEMBU 2022 - powerd by YALNGUEMBU</a>
                 </Grid>
             </Grid>
 

@@ -1,66 +1,117 @@
- @media only screen and (max-width:600px) {
-   .NavBar{
-        padding: 0px;
-        position: fixed;
-        top: 0;
-    }
-    .NavBar > li {
-        display:none;
-    }
-    
-    .NavBar.resp{
-        width: 70%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        text-align: left;
-        z-index: 10000;
-        transition: 1s;
-    }
-    
-    .NavBar.resp a{
-        display: block;
-        float: none;
-    }
-    
-    .NavBar.resp .logo{
-        width: 100%;
-        margin-bottom: 2rem;
-   }
-    .NavBar.resp .socials-medias-icons {
-        width: 100%;
-   }
-   .NavBar.resp .socials-medias-icons a{
-        display: inline-block;
-   }
-    .NavBar.resp li{
-        width: 100%;
-        display: block;
-    }
-    .NavBar a{
-        display: none;
-    }
-    .NavBar .secret{
-        padding: 12px;
-        display: block;
-        float: right;
-    }
-    .NavBar a.img{
-        display: block;
-        float: left;
-        /* width: 30px; */
-        margin: 12px;
-        src: local('../images/logo horizontal.png');
-        margin: 0;
-    }
-    .NavBar.resp a.img{
-        display: block;
-        float: left;
-        width: 100%;
-        margin: 12px;
-        margin: 0;
-        src: local('../images/logo horizontal.png');
-    }
+@media only screen and (max-width: 600px) {
+  .NavBar {
+    padding: 0px;
+    position: fixed;
+    top: 0;
+  }
+  ul.NavBar {
+    padding: 0px 1rem;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .NavBar > li {
+    display: none;
+  }
 
-} 
+  .NavBar.resp {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    z-index: 10000;
+    transition: 1s;
+    padding: 0;
+  }
+
+  .NavBar .logo {
+   padding-top: 0.5rem;
+  }
+  .NavBar.resp a {
+    display: block;
+    float: none;
+  }
+
+  .NavBar.resp .logo {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .NavBar.resp .socials-medias-icons {
+    width: 100%;
+  }
+  .NavBar.resp .socials-medias-icons a {
+    display: inline-block;
+  }
+  .NavBar.resp li {
+    width: 100%;
+    display: block;
+  }
+  .NavBar a {
+    display: none;
+  }
+  .NavBar .secret {
+    padding: 12px;
+    display: block;
+    float: right;
+  }
+  .NavBar a.img {
+    display: block;
+    float: left;
+    /* width: 30px; */
+    margin: 12px;
+    src: local("../images/logo horizontal.png");
+    margin: 0;
+  }
+  .NavBar.resp a.img {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 12px;
+    margin: 0;
+    src: local("../images/logo horizontal.png");
+  }
+  .main_hd {
+    padding: 1rem;
+  }
+  .main_hd .box_txt {
+    padding: 0;
+  }
+  .services {
+    padding: 1rem;
+  }
+  .main_hd {
+    padding: 1rem;
+  }
+  .skill {
+    padding-inline: 1rem;
+  }
+  #skill.nav {
+    padding: 0rem;
+  }
+  .projets {
+    padding-inline: 1rem;
+  }
+  .projets {
+    padding-inline: 1rem;
+  }
+  .testimonie {
+    width: 100%;
+    padding: 1rem;
+  }
+  .testimonie .btn {
+    background-color: #00000040;
+  }
+  .testimonie .btn.b_1 {
+    display: inline;
+    left: 0px;
+  }
+  .testimonie .btn.b_2 {
+    display: inline;
+    right: 0px;
+  }
+  .contact {
+    padding: 1rem;
+  }
+
+}

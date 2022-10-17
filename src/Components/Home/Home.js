@@ -17,9 +17,9 @@ export default function Home() {
   
   const ScrollBtn = () => {
     return (
-      <button className="scrollBtn Show">
+      <a href="#header" className="scrollBtn Show">
         <TopArrowIcon htmlColor="#f1f1f1" />
-      </button>
+      </a>
     );
   };
   return (

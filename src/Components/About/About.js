@@ -8,7 +8,7 @@ export default function About() {
   // };
   return (
     <Box className="main_ab" id="about">
-      <Grid container spacing={6}>
+      <Grid container rowSpacing={6}>
         <Grid item xs={12} md={6}>
           <picture className="img">
             <video
@@ -34,8 +34,8 @@ export default function About() {
                 voluptates dolorem neque, inventore illum nostrum vel.
                 voluptates dolorem neque, inventore illum nostrum vel.
               </p>
-              <a href="/" className="btn btn2">
-                donwload my cv
+              <a href="./pdf/CV-NGUEMBU_FOTSO_Yal_Jovane.pdf" className="btn btn2" download>
+                Telecharger mon cv
               </a>
             </Box>
           </Paper>

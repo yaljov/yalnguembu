@@ -52,7 +52,16 @@ const Slider = () => {
 
   return (
     <Box className="testimonie" id="testimonie">
-      <Grid container columnSpacing={5}>
+      <Grid container columnSpacing={5} direction="row-reverse">
+        <Grid item xs={12} md={6}>
+          <Box className="b1">
+            <p className="t1">Temoignages</p>
+            <p className="t2">
+              Ce que pensent <br /> mes client stisfait
+            </p>
+            <img src= {require("../../Assets/Images/illust 2.png")} />
+          </Box>
+        </Grid>
         <Grid item xs={12} md={6}>
           <Box className="bx">
             <Paper elevation={4} className="box">
@@ -92,14 +101,6 @@ const Slider = () => {
                 </IconButton>
               }
             ></MobileStepper>
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Box className="b1">
-            <p className="t1">Temoignages</p>
-            <p className="t2">
-              Ce que pensent <br /> mes client stisfait
-            </p>
           </Box>
         </Grid>
       </Grid>
