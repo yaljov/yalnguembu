@@ -59,7 +59,7 @@ const Slider = () => {
             <p className="t2">
               Ce que pensent <br /> mes client stisfait
             </p>
-            <img src= {require("../../Assets/Images/illust 2.png")} />
+            <img src= {require("../../Assets/Images/illust 2.png")} alt="illustration teimoignage" />
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>

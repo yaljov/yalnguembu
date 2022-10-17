@@ -13,11 +13,11 @@ export default function Footer() {
         <div className='Footer' >
             <Grid container direction="row-reverse">
                 <Grid item xs={12} md={6} >
-                    <a href='https://m.facebook.com' target="_blank" rel="noreferrer" className='icon'><FacebookRoundedIcon /></a>
-                    <a href='https://www.instagram.com' target="_blank" rel="noreferrer" className='icon'><InstagramIcon /></a>
-                    <a href='https://www.twitter.com' target="_blank" rel="noreferrer" className='icon'><TwitterIcon /></a>
-                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='icon'><Telegram /></a>
-                    <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className='icon'><LinkedIn /></a>
+                    <a href='https://m.facebook.com' target="_blank" rel="noopener noreferrer" className='icon'><FacebookRoundedIcon /></a>
+                    <a href='https://www.instagram.com' target="_blank" rel="noopener noreferrer" className='icon'><InstagramIcon /></a>
+                    <a href='https://www.twitter.com' target="_blank" rel="noopener noreferrer" className='icon'><TwitterIcon /></a>
+                    <a href='https://www.linkedin.com' target="_blank" rel="noopener noreferrer" className='icon'><Telegram /></a>
+                    <a href='https://www.linkedin.com' target="_blank" rel="noopener noreferrer" className='icon'><LinkedIn /></a>
                 </Grid>
                 <Grid item xs={12} md={6} >
                     <a href='/' className='a left'><CopyrightIcon fontSize='small' className='icon' /> YALNGUEMBU 2022 - powerd by YALNGUEMBU</a>
