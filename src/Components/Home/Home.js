@@ -17,8 +17,8 @@ export default function Home() {
   
   const ScrollBtn = () => {
     return (
-      <a href="#header" className="scrollBtn Show">
-        <TopArrowIcon htmlColor="#f1f1f1" />
+      <a href="#header" className="scrollBtn Show" title="go to top">
+        <TopArrowIcon htmlColor="#f1f1f1" alt="arrow up" title="arrow up" />
       </a>
     );
   };

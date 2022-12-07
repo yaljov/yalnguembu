@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import DownloadIcon from "@mui/icons-material/Download";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -18,54 +17,54 @@ export default function NavBar() {
       <ul className={open ? "NavBar resp" : "NavBar"}>
         <li className="secret">
           {" "}
-          <IconButton onClick={handelOpen}>
-            <MenuIcon className="iconSecret" />
+          <IconButton onClick={handelOpen} title="open nav">
+            <MenuIcon className="iconSecret" alt="open navbar" />
           </IconButton>{" "}
         </li>
-        <div className="logo">
-          <a href="/" className="a imgBox">
+        <li className="logo">
+          <a href="/" className="a imgBox" title="home">
             <img src={logo} className="img" alt="logo" />
           </a>
-        </div>
+        </li>
         <li>
-          <a href="#services" className="a">
+          <a href="#services" className="a" title="services">
             Services
           </a>{" "}
         </li>
         <li>
-          <a href="#about" className="a active">
+          <a href="#about" className="a active" title="about">
             A propos
           </a>
         </li>
         <li>
-          <a href="#skill" className="a">
+          <a href="#skill" className="a" title="skill">
             Competences
           </a>
         </li>
         <li>
-          <a href="#projects" className="a">
+          <a href="#projects" className="a" title="projects">
             PortFolio
           </a>
         </li>
         <li>
-          <a href="#testimonie" className="a">
+          <a href="#testimonie" className="a" title="testimonie">
             Teimoignages
           </a>
         </li>
-        <div className="socials-medias-icons">
-          <a href="m.facebook.com">
-            <FacebookIcon  className="nav_icon"/>
+        <li className="socials-medias-icons">
+          <a href="m.facebook.com" title="my facebook">
+            <FacebookIcon className="nav_icon" alt="facebook" />
           </a>
-          <a href="m.facebook.com">
-            <InstagramIcon className="nav_icon" />
+          <a href="m.facebook.com" title="my instagram">
+            <InstagramIcon className="nav_icon" alt="instagram" />
           </a>
-          <a href="m.facebook.com">
-            <TwitterIcon className="nav_icon" />
+          <a href="m.facebook.com" title="my twitter">
+            <TwitterIcon className="nav_icon" alt="twitter" />
           </a>
-          <a href="m.facebook.com">
-            <LinkedInIcon className="nav_icon" />
+          <a href="m.facebook.com" title="my linkedin">
+            <LinkedInIcon className="nav_icon" alt="linkedin" />
           </a>
-        </div>
+        </li>
       </ul>
     </nav>
   );

@@ -10,11 +10,25 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
-/* Nav bar*/
+
+.loader-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1dcff;
+  color: #00307c;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .main {
   width: 100%;
-  /* padding-top: 80px; */
 }
 .navbarContainer {
   margin: 0;
@@ -23,14 +37,17 @@ body {
   width: 100%;
   display: inline;
   z-index: 10;
+  box-shadow: 0px 2px 6px 0px #d3d3d3;
+  background-color: #fff;
 }
 .navbarContainer ul {
-  padding: 0px 100px;
+  padding: 8px 100px;
   margin: 0;
   list-style: none;
   text-align: center;
   background-color: #fff;
   width: 100%;
+  margin-top: auto;
 }
 .navbarContainer .secret {
   display: none;
@@ -40,7 +57,7 @@ body {
 }
 .navbarContainer li a {
   color: #2d2d2d;
-  padding: 17px;
+  padding: 18px;
   font-weight: 400;
   display: block;
 }
@@ -58,12 +75,9 @@ body {
 .navbarContainer .socials-medias-icons {
   width: 250px;
   float: right;
-  /* padding: 16px 0px; */
+  display: flex;
   color: #00307c;
-}
-.navbarContainer .nav_icon {
-  margin: 16px;
-  /* color: red; */
+  display: none;
 }
 .navbarContainer a {
   text-decoration: none;
@@ -95,14 +109,12 @@ body {
   cursor: pointer;
   text-decoration: none;
   box-shadow: 0px 2px 5px 0px lightblue;
-  /* display: none; */
 }
 /*footer */
 
 .Footer {
   width: 100%;
   margin: 0;
-  /* padding: 14px; */
   background-color: #00307c;
   display: block;
   text-align: center;
@@ -128,13 +140,11 @@ body {
 }
 .contact .img {
   width: 300px;
-  /* float: left; */
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 .contact .box {
-  /* background: url('../../Assets/Images/pexels-valeria-boltneva-1639556\ \(1\).jpg'); */
   background-repeat: no-repeat;
   background-size: contain;
   padding: 20px 50px;
@@ -220,7 +230,6 @@ body {
 .btn1:hover {
   background-color: #fff;
   color: #00307c;
-  /* border-color: #fff; */
 }
 .yellow-text {
   color: #d7ad00;
@@ -427,6 +436,7 @@ body {
   align-items: center;
 }
 .skill .item > img {
+  width: 100%;
   filter: drop-shadow(2px 2px 8px gray);
 }
 .skill .item p {
@@ -711,7 +721,6 @@ body {
   border-radius: 50%;
 }
 .user .iconBox {
-  /* padding: 12px; */
   text-align: center;
 }
 .user .iconBox .iconLink {

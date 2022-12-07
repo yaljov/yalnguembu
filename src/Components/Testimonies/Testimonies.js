@@ -85,19 +85,21 @@ const Slider = () => {
               className="stepper"
               nextButton={
                 <IconButton
+                title="previous"
                   className={activeSlide === 0 ? "btn" : "btn b_1"}
                   onClick={handelBack}
                   disabled={activeSlide === 0}
                 >
-                  <ArrowBackIosIcon />
+                  <ArrowBackIosIcon  alt="arrow left"/>
                 </IconButton>
               }
               backButton={
                 <IconButton
+                title="next"
                   className={activeSlide === 3 ? "btn" : "btn b_2"}
                   onClick={handelNext}
                 >
-                  <ArrowForwardIosIcon />
+                  <ArrowForwardIosIcon alt="arrow right" />
                 </IconButton>
               }
             ></MobileStepper>

@@ -37,6 +37,9 @@
     width: 100%;
     margin-bottom: 2rem;
   }
+  .navbarContainer.socials-medias-icons{
+    display: block ;
+  }
   .NavBar.resp .socials-medias-icons {
     width: 100%;
   }

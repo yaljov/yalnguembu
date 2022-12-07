@@ -58,7 +58,7 @@ export default function Skill() {
                 </TimeLineSeparator>
                 <TimeLineContent>
                   <Paper className="timiline-card">
-                    <Typography variant="h6">
+                    <Typography>
                       Devellopeur stagiaire chez Envol SARL
                     </Typography>
                     <Typography color="text.secondary">
@@ -78,7 +78,7 @@ export default function Skill() {
                 </TimeLineSeparator>
                 <TimeLineContent>
                   <Paper className="timiline-card">
-                    <Typography variant="h6">
+                    <Typography>
                       Devellopeur stagiaire chez CAT
                     </Typography>
                     <Typography color="text.secondary">
@@ -98,7 +98,7 @@ export default function Skill() {
                 </TimeLineSeparator>
                 <TimeLineContent>
                   <Paper className="timiline-card">
-                    <Typography variant="h6">
+                    <Typography>
                       Devellopeur Freelance a mon propre compte
                     </Typography>
                     <Typography color="text.secondary">
